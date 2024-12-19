@@ -163,7 +163,7 @@ while game:
         score = font2.render('Score:' + str(money_num), 1, (255, 255, 255))
         window.blit(score, (10, 10))
         hearts = font2.render('Hp:' + str(heart_player), 1, (168, 228, 160))
-        window.blit(hearts, (630, 10))
+        window.blit(hearts, (600, 10))
 
         if sprite.spritecollide(player, moneys, True):
             money_num += 1 
